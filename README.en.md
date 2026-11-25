@@ -11,7 +11,8 @@ It started as a gift for a grandmother who only uses Facebook: she keeps posting
 ## Features
 
 - 🖼️ **Date-based frames:** birthdays with the person's name, holidays, seasons (all of December is Christmas) and one frame per month.
-- 📘 **Photos from Facebook:** every hour it fetches the new photos a person uploads. Connecting takes a code at `facebook.com/device`, like a smart TV. Access lasts ~60 days and the tablet asks for renewal by itself.
+- 📘 **Photos from Facebook:** every hour it fetches the new photos a person uploads **and photos where relatives tag them**. Connecting takes a code at `facebook.com/device`, like a smart TV. Access lasts ~60 days and the tablet asks for renewal by itself.
+- 🕰️ **Date, time and weather**, 💬 **captions** (post text, who posted it, when), 🗓️ **"On this day"** memories first, 🎂 **upcoming birthdays**, 🔄 **portrait or landscape**, 👆 **swipe** for previous/next.
 - 📱 **Web page for your phone** (same Wi‑Fi, PIN-protected): upload/remove photos, upload frames, edit birthdays and dates, update the app.
 - 🧍 **Portrait photos done right:** shown whole over a blurred background; landscape photos fill the frame.
 - 🌙 **Night mode**, auto-start on boot, keeps the screen on.

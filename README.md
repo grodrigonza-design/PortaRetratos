@@ -11,7 +11,13 @@ Nació como un regalo para una abuela que solo usa Facebook: ella sigue subiendo
 ## Qué hace
 
 - 🖼️ **Marcos según la fecha:** cumpleaños con el nombre de la persona, feriados, temporadas (todo diciembre navideño) y un marco por mes.
-- 📘 **Fotos desde Facebook:** cada hora trae las fotos nuevas que la persona sube. Para conectarla basta un código en `facebook.com/device`, como en los televisores. Se renueva cada ~2 meses y la tablet avisa sola.
+- 📘 **Fotos desde Facebook:** cada hora trae las fotos nuevas que la persona sube **y las fotos donde sus familiares la etiquetan**. Para conectarla basta un código en `facebook.com/device`, como en los televisores. Se renueva cada ~2 meses y la tablet avisa sola.
+- 🕰️ **Fecha, hora y clima:** fecha con letra manuscrita arriba; hora y clima abajo.
+- 💬 **Pie de foto** con el texto de la publicación, quién la subió y cuándo.
+- 🗓️ **"Un día como hoy":** las fotos de esta misma fecha en años anteriores salen primero.
+- 🎂 **Próximos cumpleaños:** "En 3 días: cumpleaños de Abuelo Juan".
+- 🔄 **Gira con la tablet:** horizontal o vertical, con marcos verticales propios (`navidad-vertical.png`) o girando el horizontal.
+- 👆 **Deslizar el dedo** para ver la foto anterior o la siguiente.
 - 📱 **Página para el celular** (en el mismo WiFi): subir y quitar fotos, subir marcos, editar cumpleaños y fechas, y actualizar la app. Protegida con PIN.
 - 🧍 **Fotos verticales bien acomodadas:** se ven completas con un fondo difuminado; las horizontales llenan el marco.
 - 🌙 **Modo noche**, arranque automático al encender y pantalla siempre activa.
@@ -60,6 +66,9 @@ fecha DIA_DEL_PADRE = dia-padre             ← tercer domingo de junio
 temporada 01/12-31/12 = navidad             ← rango de fechas
 mes noviembre = noviembre                   ← marco del mes
 noche = 22:30-06:00                         ← pantalla oscura de noche
+clima = San José, Costa Rica                ← clima junto a la hora
+aviso cumple = 7                            ← avisar cumpleaños con 7 días
+orientacion = auto                          ← gira con la tablet
 ```
 
 Prioridad: **cumpleaños → fecha → temporada → mes → normal**. Si dos personas cumplen el mismo día, salen juntas: "¡Feliz cumpleaños, Ana y Luis!". El archivo de ejemplo trae los feriados de Costa Rica; cámbielos por los de su país.
@@ -115,6 +124,7 @@ El celular tiene que estar en el **mismo WiFi** que la tablet. Toque la pantalla
 - Todo queda **en la tablet**. No hay servidores intermedios.
 - El permiso de Facebook solo permite **leer las fotos** de la persona que se conectó, y se puede quitar cuando quiera desde Facebook (Configuración → Apps y sitios web).
 - La página del celular solo funciona dentro de la red de la casa y pide PIN.
+- El clima (opcional) se consulta en [Open-Meteo](https://open-meteo.com), un servicio gratuito, enviando solo la ciudad o sus coordenadas.
 
 ## Compilar
 
